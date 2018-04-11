@@ -1,0 +1,41 @@
+.month_style {
+  width: 120px;
+  background-color: antiquewhite;
+  font-size: 18px;
+  border: 1px solid red;
+}
+
+.year_style {
+  width: 85px;
+  background-color: antiquewhite;
+  font-size: 18px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.build_style {
+  background-color: buttonface;
+  width: 85px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.area_style {
+  width: 800px;
+  height:400px
+  margin-top: 15px;
+  font-size: 24px;
+  font-color:black;
+}
+/*just remove the max-height
+ and max-width to move the textarea
+*/
+
+.btn_nav {
+  background-color: black;
+  width: 57px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight:bold;
+}

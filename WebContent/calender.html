@@ -1,0 +1,61 @@
+<!DOCtype html>
+<html>
+<head>
+<title>Calendar</title>
+
+<link rel="stylesheet" type="text/css" href="css/calender.css">
+<script src="js/calender.js"></script>
+
+</head>
+
+<body onLoad="setToday()">
+
+<form name="calControl" onSubmit="return false;" method="post">
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td colspan=20>
+			<select class="month_style" name="month" onChange="selectdate()">
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+			</select>
+			
+			<select class="year_style" name="year" onChange="selectdate()">
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+				<option>2021</option>
+			</select>
+			<input type="button" class="build_style" name="Go" value="Go to!" onClick="selectDate()">
+		</td>
+	</tr>
+</form>
+
+<form name="calButtons" method="post">
+	<tr>
+		<td><textarea class="area_style" name="calPage"  rows=14 cols=22 ></textarea></td>
+			
+	</tr>
+</table>
+</form>
+
+</body>
+</html>

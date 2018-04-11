@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+
+<title>sample
+
+</title>
+<link rel="stylesheet" type="text/css" href="./css/sample.css" ></link>
+
+</head>
+
+
+<body>
+
+<form name=form  action="./sample.html" onsubmit="p();">
+
+<script type=text/javascript>
+	function p()
+
+{
+	var password=document.form.pass.value;
+	var username=document.form.email.value;
+	if ((username=="" && password==""))
+	{
+		alert("username and password can't be empty");return false;
+	}
+	else{
+	if (username=="")
+		{
+		alert("Enter Username");return false;
+		}
+	else(password=="")
+	{
+		alert("Enter Password");return false;
+	}
+	}return true;
+}
+
+</script>
+
+
+<center><img src=img/art1.png  heigth=100 width=200>
+
+<br><br><table align=center><tr>
+
+<th>
+
+EMAIL</th><th><input type=text id="email" name="email"></th></tr><tr>
+
+<th>PASSWORD</th><th><input type=password id="pass" name="pass"></th></tr>
+
+<tr>
+
+<th align=center>
+
+<br>
+
+<input type=submit name="submit" value=LOGIN height=300 width=20 />
+
+</th></tr></table></center>
+</form>
+
+</body>
+
+</html>
